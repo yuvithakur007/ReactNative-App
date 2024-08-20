@@ -10,6 +10,10 @@ import {AppRegistry} from 'react-native';
 // app 3 - password generator
 import PasswordGenerator from './PasswordGenerator';
 
+// Tic Tac toe
+import TicTacToe from './TicTacToe';
+
+
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => PasswordGenerator);
+AppRegistry.registerComponent(appName, () => TicTacToe);
